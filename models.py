@@ -78,3 +78,18 @@ class PotionSchema(ma.Schema):
 
 potion_schema = PotionSchema()
 potions_schema = PotionSchema(many=True)
+
+'''
+when loading onto glitch, be sure to readd in the requiremens file
+all you will need to do is tyoe the following command into the 
+glitch terminal:
+
+pip3 install -r requirements.txt
+pip3 install flask_wtf
+pip3 install marshmallow-sqlalchemy
+
+this will re install all the stuff you need.
+
+'''
+
+#website for alchemy store: https://shore-horse-singularity.glitch.me/
